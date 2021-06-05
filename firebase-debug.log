@@ -1,0 +1,51 @@
+[debug] [2021-06-05T10:35:20.889Z] ----------------------------------------------------------------------
+[debug] [2021-06-05T10:35:20.891Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2021-06-05T10:35:20.892Z] CLI Version:   9.12.1
+[debug] [2021-06-05T10:35:20.892Z] Platform:      linux
+[debug] [2021-06-05T10:35:20.892Z] Node Version:  v10.19.0
+[debug] [2021-06-05T10:35:20.892Z] Time:          Sat Jun 05 2021 16:05:20 GMT+0530 (India Standard Time)
+[debug] [2021-06-05T10:35:20.892Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-05T10:35:20.896Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-05T10:35:20.896Z] > authorizing via signed-in user (suhaasd13@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/suhaas/netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-06-05T10:35:33.735Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-06-05T10:35:34.673Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-06-05T10:35:34.673Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project netflix-clone-5f70d (netflix-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-06-05T10:35:57.705Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-06-05T10:36:03.050Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-06-05T10:36:03.050Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.6.5","browserURL":"https://www.gstatic.com/firebasejs/8.6.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.6.5/firebase.tgz"},"live":{"version":"8.6","browserURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/8.6.5/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.6.5/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.6.5/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.6.5/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.6.5/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.6.5/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.memory.js"}}
+[info] ✔  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at /home/suhaas/netflix-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=975239540&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
